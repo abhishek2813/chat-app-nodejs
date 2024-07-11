@@ -1,0 +1,46 @@
+.section {
+    background-color: rgb(229, 231, 235);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shadow {
+    background-color: rgba(247, 247, 247, 1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.msg{
+    border-radius:10px;
+    background-color: rgb(227, 227, 227);
+    border: 6px solid #f3f3f3;
+}
+/* CSS for Message Container */
+.message {
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #f0f0f0;
+    max-width: 70%;
+}
+
+/* CSS for Message Header (Sender Name) */
+.message-header {
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* CSS for Message Content */
+.message-content {
+    margin-top: 5px;
+    font-size: 16px;
+    color: #000;
+}
+
+/* CSS for Message Footer (Timestamp) */
+.message-footer {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #999;
+    text-align: right;
+}
